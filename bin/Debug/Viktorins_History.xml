@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Viktorin type="History">
+  <question type="OneAnswer">
+    <text>Кто был первым президентом США?</text>
+    <options>
+      <option>Джордж Вашингтон</option>
+      <option>Авраам Линкольн</option>
+      <option>Франклин Рузвельт</option>
+      <option>Джон Ф. Кеннеди</option>
+    </options>
+    <correct>Джордж Вашингтон</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Кто написал "Войну и мир"?</text>
+    <options>
+      <option>Лев Толстой</option>
+      <option>Фёдор Достоевский</option>
+      <option>Александр Пушкин</option>
+      <option>Михаил Булгаков</option>
+    </options>
+    <correct>Лев Толстой</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>В каком году произошла Французская революция?</text>
+    <options>
+      <option>1789</option>
+      <option>1804</option>
+      <option>1848</option>
+      <option>1917</option>
+    </options>
+    <correct>1789</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Кто был лидером Советского Союза во время Второй мировой войны?</text>
+    <options>
+      <option>Иосиф Сталин</option>
+      <option>Владимир Ленин</option>
+      <option>Михаил Горбачёв</option>
+      <option>Никита Хрущёв</option>
+    </options>
+    <correct>Иосиф Сталин</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Какое событие считается началом Первой мировой войны?</text>
+    <options>
+      <option>Убийство Франца Фердинанда</option>
+      <option>Подписание Версальского договора</option>
+      <option>Взятие Берлина</option>
+      <option>Падение Британской империи</option>
+    </options>
+    <correct>Убийство Франца Фердинанда</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Когда произошла Октябрьская революция?</text>
+    <options>
+      <option>1917</option>
+      <option>1918</option>
+      <option>1920</option>
+      <option>1922</option>
+    </options>
+    <correct>1917</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Кто был последним царем России?</text>
+    <options>
+      <option>Николай II</option>
+      <option>Александр II</option>
+      <option>Иван Грозный</option>
+      <option>Петр I</option>
+    </options>
+    <correct>Николай II</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>В каком году была подписана Конституция США?</text>
+    <options>
+      <option>1787</option>
+      <option>1800</option>
+      <option>1865</option>
+      <option>1901</option>
+    </options>
+    <correct>1787</correct>
+  </question>
+  <question type="MoreAnswer">
+    <text>Выберите все годы Второй мировой войны:</text>
+    <options>
+      <option>1939</option>
+      <option>1942</option>
+      <option>1945</option>
+      <option>1950</option>
+    </options>
+    <correct>1939</correct>
+    <correct>1942</correct>
+    <correct>1945</correct>
+  </question>
+  <question type="MoreAnswer">
+    <text>Выберите все известные древние цивилизации:</text>
+    <options>
+      <option>Египетская</option>
+      <option>Римская</option>
+      <option>Индийская</option>
+      <option>Майя</option>
+    </options>
+    <correct>Египетская</correct>
+    <correct>Римская</correct>
+    <correct>Индийская</correct>
+    <correct>Майя</correct>
+  </question>
+</Viktorin>

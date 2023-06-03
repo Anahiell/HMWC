@@ -26,42 +26,29 @@ namespace Quiz
         }
         public void Create(List<Usser> some)
         {
-            //if (some == null)
-            //{
-            //    Console.WriteLine("Start to create new Account");
-            //    Console.WriteLine("Enter Loggin or Nickname:");
-            //    login = Console.ReadLine();
-            //    Console.WriteLine("Enter password:");
-            //    passw = Console.ReadLine();
-            //    Console.WriteLine("Enter your date of birthday:");
-            //    dateBirth = DateTime.Parse(Console.ReadLine());
-            //    Console.WriteLine("\tCongratulation!!!\n You create accaunt!");
-            //}
-            //else
-            //{
-                Console.WriteLine("Start to create new Account");
-                Console.WriteLine("Enter Loggin or Nickname:");
-                login = Console.ReadLine();
+            Console.WriteLine("Start to create new Account");
+            Console.WriteLine("Enter Loggin or Nickname:");
+            login = Console.ReadLine();
 
-                foreach (Usser one in some)
+            foreach (Usser one in some)
+            {
+                if (one.login != login)
                 {
-                    if (one.login != login)
-                    {
                     continue;
-                    }
-                    else
-                    {
-                        Console.WriteLine("This name is taken");
-                        Console.WriteLine("Enter Loggin or Nickname:");
-                        login = Console.ReadLine();
-                    }
                 }
-                Console.WriteLine("Enter password:");
-                passw = Console.ReadLine();
-                Console.WriteLine("Enter your date of birthday:");
-                dateBirth = DateTime.Parse(Console.ReadLine());
-                Console.WriteLine("\tCongratulation!!!\n You create accaunt!");
-           // }
+                else
+                {
+                    Console.WriteLine("This name is taken");
+                    Console.WriteLine("Enter Loggin or Nickname:");
+                    login = Console.ReadLine();
+                }
+            }
+            Console.WriteLine("Enter password:");
+            passw = Console.ReadLine();
+            Console.WriteLine("Enter your date of birthday:");
+            dateBirth = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("\tCongratulation!!!\n You create accaunt!");
+
         }
         public bool Sing_in(List<Usser> some)
         {
@@ -78,7 +65,7 @@ namespace Quiz
                     {
                         Console.WriteLine("Sucsess");
                         return true;
-                       
+
                     }
                 }
             }

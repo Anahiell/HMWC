@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Viktorin type="Math">
+  <question type="OneAnswer">
+    <text>Число, у которого нет собственного числа?</text>
+    <options>
+      <option>0</option>
+      <option>1</option>
+      <option>2</option>
+      <option>10</option>
+    </options>
+    <correct>0</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Назовите единственное четное простое число?</text>
+    <options>
+      <option>Два</option>
+      <option>Четыре</option>
+      <option>Шесть</option>
+      <option>Восемь</option>
+    </options>
+    <correct>Два</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Как еще называют периметр круга?</text>
+    <options>
+      <option>Окружность</option>
+      <option>Диаметр</option>
+      <option>Радиус</option>
+      <option>Площадь</option>
+    </options>
+    <correct>Окружность</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Каков фактический чистый номер после 7?</text>
+    <options>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+    </options>
+    <correct>11</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>53 разделить на четыре сколько будет?</text>
+    <options>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+    </options>
+    <correct>13</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Что такое Пи, рациональное или иррациональное число?</text>
+    <options>
+      <option>Пи - рациональное число.</option>
+      <option>Пи - иррациональное число.</option>
+      <option>Пи - целое число.</option>
+      <option>Пи - простое число.</option>
+    </options>
+    <correct>Пи - иррациональное число.</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Какое самое популярное счастливое число от 1 до 9?</text>
+    <options>
+      <option>Один</option>
+      <option>Четыре</option>
+      <option>Семь</option>
+      <option>Девять</option>
+    </options>
+    <correct>Семь</correct>
+  </question>
+  <question type="OneAnswer">
+    <text>Сколько секунд в одном дне?</text>
+    <options>
+      <option>24 секунды</option>
+      <option>60 секунд</option>
+      <option>360 секунд</option>
+      <option>86,400 секунд</option>
+    </options>
+    <correct>86,400 секунд</correct>
+  </question>
+  <question type="MoreAnswer">
+    <text>Выберите все простые числа:</text>
+    <options>
+      <option>2</option>
+      <option>4</option>
+      <option>7</option>
+      <option>10</option>
+    </options>
+    <correct>2</correct>
+    <correct>7</correct>
+  </question>
+  <question type="MoreAnswer">
+    <text>Выберите все цвета радуги:</text>
+    <options>
+      <option>Красный</option>
+      <option>Желтый</option>
+      <option>Зеленый</option>
+      <option>Синий</option>
+    </options>
+    <correct>Красный</correct>
+    <correct>Желтый</correct>
+    <correct>Зеленый</correct>
+    <correct>Синий</correct>
+  </question>
+</Viktorin>

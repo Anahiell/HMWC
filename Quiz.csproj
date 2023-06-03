@@ -45,12 +45,17 @@
   <ItemGroup>
     <Compile Include="Back.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IQuestion.cs" />
+    <Compile Include="MoreAnswQuest.cs" />
+    <Compile Include="OneAnswQuest.cs" />
     <Compile Include="Usser.cs" />
-    <Compile Include="Viktorins.cs" />
+    <Compile Include="Viktorin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
