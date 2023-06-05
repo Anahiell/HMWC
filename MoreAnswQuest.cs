@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Quiz
 {
-    class MoreAnswQuest:IQuestion
+    class MoreAnswQuest : IQuestion
     {
         public string question;
         public Dictionary<char, string> answers;
         public List<string> correctAnsw;
-        public MoreAnswQuest(string quest, Dictionary<char, string> answers,List<string> correct)
+        public MoreAnswQuest(string quest, Dictionary<char, string> answers, List<string> correct)
         {
             question = quest;
             this.answers = answers;
@@ -26,7 +26,7 @@ namespace Quiz
             {
                 Console.WriteLine($"{v.Key} - {v.Value}");
             }
-            int i=0;
+            int i = 0;
             foreach (var one in correctAnsw)
             {
                 vari = char.Parse(Console.ReadLine());

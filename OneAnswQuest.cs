@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Quiz
 {
-   public class OneAnswQuest:IQuestion
+    public class OneAnswQuest : IQuestion
     {
         public string question;
-        public Dictionary<char,string> answers;
+        public Dictionary<char, string> answers;
         public string correctAnsw;
         public OneAnswQuest(string quest, Dictionary<char, string> answers, string correct)
         {
@@ -20,25 +20,25 @@ namespace Quiz
         public bool IsCorrect()
         {
             Console.WriteLine(question);
-            foreach(var v in answers)
+            foreach (var v in answers)
             {
                 Console.WriteLine($"{v.Key} - {v.Value}");
             }
             char vari = char.Parse(Console.ReadLine());
-            while (vari!='A'&&vari!='B'&&vari!='C'&&vari!='D')
+            while (vari != 'A' && vari != 'B' && vari != 'C' && vari != 'D')
             {
                 Console.WriteLine("Wrong Letter Again");
                 vari = char.Parse(Console.ReadLine());
             }
-           if(answers[vari] == correctAnsw)
+            if (answers[vari] == correctAnsw)
             {
                 return true;
             }
-           else
+            else
             {
                 return false;
             }
         }
-           
+
     }
 }

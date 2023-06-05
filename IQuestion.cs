@@ -8,7 +8,6 @@ namespace Quiz
 {
     interface IQuestion
     {
-         bool IsCorrect();
-        
+        bool IsCorrect();
     }
 }

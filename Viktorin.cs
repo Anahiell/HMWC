@@ -82,11 +82,11 @@ namespace Quiz
                 }
             }
         }
-        
+
         public void Start()
         {
             Console.WriteLine(nameOfVik);
-            foreach(var q in questions)
+            foreach (var q in questions)
             {
                 var x = q.IsCorrect();
                 if (x == true)
